@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+I:/game/game.h
+stdio.h
+I:/game/stdio.h
+stdlib.h
+-
+time.h
+I:/game/time.h
+
+I:/game/main.c
+game.h
+I:/game/game.h
+
